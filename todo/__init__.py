@@ -16,7 +16,7 @@ def create_app():
    
    app.config.from_mapping(
         
-        SECRET_KEY="hfbefbewufewifjnwefin"
+        SECRET_KEY="linus"
     )
    
 

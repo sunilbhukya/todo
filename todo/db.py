@@ -9,7 +9,7 @@ import urllib.parse as urlparse
 
 def get_db():
     if 'db' not in g:
-        url = urlparse.urlparse('postgres://xzazucmbfvomqo:a0b4236392644438b0eed7f8756cc537ea582f7f062a2d95052009dc36e49293@ec2-54-211-160-34.compute-1.amazonaws.com:5432/dd5lqk4v8arqlg')
+        url = urlparse.urlparse('postgres://ouxofcapgmapsy:106975c4ff9fc852a1366bb285bae098c0b641b028422926957347a39f80915e@ec2-54-83-82-187.compute-1.amazonaws.com:5432/dahj5531vpndok')
         dbname = url.path[1:]
         user = url.username
         password = url.password
